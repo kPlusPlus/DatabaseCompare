@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<Function>
+	<!--
+	<Rule process="replace" strFind="create {1,10}+function.*as" strReplacment=" ">brisanje CREATE FUNCTION</Rule>
+	-->	
+	<Rule process="replace" strFind="create\\s+function\\s+(.+\\sas)\\s" strReplacment="">brisanje CREATE FUNCTION</Rule>
+	<Rule process="replace" strFind="create.*function.*\\n" strReplacment="">brisanje CREATE FUNCTION</Rule>
+	<Rule process="replace" strFind="(?ims)(create {0,10}function)(.*as)?" strReplacment="" />	
+	<Rule process="replace" strFind="^.*\\GO\\b.*$" strReplacment="" />
+	<!--
+	<Rule process="replace" strFind="^((/\\*).*?(\\*/))" strReplacment="" />
+	   -->
+	<Rule process="replace" strFind="(?ism)/\\*.*?\\*/" strReplacment="" />
+	<Rule process="replace" strFind="--.*" strReplacment="" />	
+	<!--
+	******************  specijalni znakovi  ******************
+-->
+	<Rule process="replace" strFind="(?ims)\\(|\\)|\\[|\\]" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)\\p{Cc}" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)^[ \t]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)^[ \r]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)^[ \n]*$" strReplacment="" />
+	<!-- ovo kod stora radi -->
+	<Rule process="replace" strFind="(?ims)^[ \s]*$" strReplacment="" />
+	<Rule process="replaceStandard" strFind="\r" strReplacment="" />
+	<Rule process="replaceStandard" strFind="\n" strReplacment="" />
+	<Rule process="replaceStandard" strFind="\t" strReplacment="" />
+	
+</Function>

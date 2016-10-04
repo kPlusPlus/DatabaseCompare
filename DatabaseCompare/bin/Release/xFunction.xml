@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1250" ?>
+<Function>
+	<!--
+	<Rule process="replace" strFind="create {1,10}+function.*as" strReplacment=" ">brisanje CREATE FUNCTION</Rule>
+	-->	
+	<Rule process="replace" strFind="create\\s+function\\s+(.+\\sas)\\s" strReplacment="">brisanje CREATE FUNCTION</Rule>
+	<Rule process="replace" strFind="(?ism)(create {0,10}function)(.*as)?" strReplacment="" />	
+	<Rule process="replace" strFind="^.*\\GO\\b.*$" strReplacment="" />
+	<Rule process="replace" strFind="^((/\\*).*?(\\*/))" strReplacment="" />
+	<Rule process="replace" strFind="--.*" strReplacment="" />	
+	<!--
+	******************  specijalni znakovi  ******************
+-->
+	<Rule process="replace" strFind="(?ism)\\p{Cc}" strReplacment="" />
+	<Rule process="replace" strFind="(?ism)^[ \t]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ism)^[ \r]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ism)^[ \n]*$" strReplacment="" />
+</Function>

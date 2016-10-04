@@ -1,0 +1,8 @@
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\bin\Debug\xFunction.xml
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\bin\Debug\xStoreProcedure.xml
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\bin\Debug\xTriggers.xml
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\bin\Debug\DatabaseCompare.Domain.dll
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\bin\Debug\DatabaseCompare.Domain.pdb
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\obj\Debug\DatabaseCompare.Domain.dll
+D:\Project\DatabaseCompare\DatabaseCompare.Domain\obj\Debug\DatabaseCompare.Domain.pdb

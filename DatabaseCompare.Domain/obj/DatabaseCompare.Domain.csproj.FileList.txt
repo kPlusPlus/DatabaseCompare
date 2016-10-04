@@ -1,0 +1,14 @@
+bin\Release\xFunction.xml
+bin\Release\xStoreProcedure.xml
+bin\Release\xTriggers.xml
+bin\Release\DatabaseCompare.Domain.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DatabaseCompare.Domain.dll
+bin\Debug\xFunction.xml
+bin\Debug\xStoreProcedure.xml
+bin\Debug\xTriggers.xml
+bin\Debug\DatabaseCompare.Domain.dll
+bin\Debug\DatabaseCompare.Domain.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DatabaseCompare.Domain.dll
+obj\Debug\DatabaseCompare.Domain.pdb

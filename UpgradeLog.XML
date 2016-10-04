@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DatabaseCompare">
+</Property><Property Name="Solution File" Value="E:\ubs21\DatabaseCompare\DatabaseCompare.sln">
+</Property><Property Name="User Options File" Value="E:\ubs21\DatabaseCompare\DatabaseCompare.suo">
+</Property><Property Name="Date" Value="19. ožujak 2007">
+</Property><Property Name="Time" Value="17:12">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="DatabaseCompare.sln" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.sln">
+</Event><Event ErrorLevel="0" Project="" Source="DatabaseCompare.suo" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.suo">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\DatabaseCompare.csproj" Description="Project file successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\DatabaseCompare.csproj">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\DatabaseCompare.csproj.user" Description="Project user file successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\DatabaseCompare.csproj.user">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\AssemblyInfo.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\ChangeScript.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\ChangeScript.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\MainForm.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\app.config" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\app.config">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\App.ico" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\App.ico">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\ChangeScript.resx" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\ChangeScript.resx">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\MainForm.resx" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\DatabaseCompare.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DatabaseCompare" Source="DatabaseCompare\DatabaseCompare.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\DatabaseCompare.Domain.csproj" Description="Project file successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\DatabaseCompare.Domain.csproj">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\DatabaseCompare.Domain.csproj.user" Description="Project user file successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\DatabaseCompare.Domain.csproj.user">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\AssemblyInfo.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\Column.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\Column.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\Database.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\Database.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\DatabaseObject.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\DatabaseObject.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\DBDifference.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\DBDifference.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\Function.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\Function.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\StoredProc.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\StoredProc.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\Triggers.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\Triggers.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\UserTable.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\UserTable.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\View.cs" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\View.cs">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\xFunction.xml" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\xFunction.xml">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\xStoreProcedure.xml" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\xStoreProcedure.xml">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\xTriggers.xml" Description="File successfully backed up as E:\ubs21\DatabaseCompare\Backup\DatabaseCompare.Domain\xTriggers.xml">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\DatabaseCompare.Domain.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\DatabaseCompare.Domain.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DatabaseCompare.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DatabaseCompare.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare" Source="DatabaseCompare\DatabaseCompare.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DatabaseCompare.Domain" Source="DatabaseCompare.Domain\DatabaseCompare.Domain.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

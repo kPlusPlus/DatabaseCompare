@@ -1,0 +1,31 @@
+create function [dbo].[sivrstplac] (@inlistid int)  
+
+returns  smallint
+
+as  
+
+begin
+	declare @vrstplac smallint
+
+-- listnad1id
+if not (select count (*) from dbo.list, dbo.listnad where dbo.list.id = @inlistid and dbo.list.listnad1id = dbo.listnad.id) is null 
+	begin
+	set @vrstplac = (select dbo.listnad.listvrstplac
+			from dbo.list, dbo.listnad
+			where dbo.list.id = @inlistid and dbo.list.listnad1id = dbo.listnad.id 
+				and (dbo.listnad.skupdogadjaj = 11 or dbo.listnad.skupdogadjaj = 12 or dbo.listnad.skupdogadjaj = 13))
+	end
+
+-- listnadid
+if not (select count (*) from dbo.list, dbo.listnad where dbo.list.id = @inlistid and dbo.list.listnadid = dbo.listnad.id) is null 
+	begin
+	set @vrstplac = (select dbo.listnad.listvrstplac
+			from dbo.list, dbo.listnad
+			where dbo.list.id = @inlistid and dbo.list.listnadid = dbo.listnad.id 
+				and (dbo.listnad.skupdogadjaj = 11 or dbo.listnad.skupdogadjaj = 12 or dbo.listnad.skupdogadjaj = 13))
+	end
+
+	
+return   isnull((@vrstplac), 0) 
+
+end

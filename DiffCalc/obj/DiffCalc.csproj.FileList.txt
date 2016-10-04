@@ -1,0 +1,11 @@
+bin\Debug\DiffCalc.exe
+bin\Debug\DiffCalc.pdb
+bin\Debug\DifferenceEngine.dll
+bin\Debug\DifferenceEngine.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DiffCalc.BinaryResults.resources
+obj\Debug\DiffCalc.Results.resources
+obj\Debug\DiffCalc.csproj.GenerateResource.Cache
+obj\Debug\DiffCalc.exe
+obj\Debug\DiffCalc.pdb
+obj\Debug\DiffCalc.Form1.resources

@@ -1,0 +1,1 @@
+begindeclare @vrstplac smallintbeginset @vrstplac = (select dbo.listnad.listvrstplacfrom dbo.listinner join dbo.listnad on dbo.list.listnadid = dbo.listnad.idwhere dbo.list.id = @inlistid  and dbo.listnad.skupdogadjaj in(11,12,13,14))endreturn   isnull((@vrstplac), 0) end

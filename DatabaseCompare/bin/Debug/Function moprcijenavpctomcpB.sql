@@ -1,0 +1,1 @@
+begin declare @mompc moneyif (@movpc = 0)return 0;if (@nuporkoef = 0)return 0;select @mompc = 0set @mompc = round(@movpc * @nuporkoef,4)return ( @mompc )   end

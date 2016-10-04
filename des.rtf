@@ -1,0 +1,22 @@
+/****** object:  user defined function dbo.sivrstplac    script date: 12.03.2006 19:32:38 ******/
+create  function [dbo].[sivrstplac] (@inlistid int)  
+
+returns  smallint
+
+as  
+
+begin
+	declare @vrstplac smallint
+
+	begin
+		set @vrstplac = 
+		(select dbo.listnad.listvrstplac
+		from dbo.list
+			inner join dbo.listnad on dbo.list.listnadid = dbo.listnad.id
+		where dbo.list.id = @inlistid  
+			and dbo.listnad.skupdogadjaj in(11,12,13,14))
+	end
+
+return   isnull((@vrstplac), 0) 
+
+end

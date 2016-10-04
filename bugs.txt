@@ -1,0 +1,11 @@
+{System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at System.Data.SqlClient.SqlBuffer.get_String()
+   at System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at DatabaseCompare.Domain.Triggers.GatherData(SqlConnection conn) in E:\ubs21\DatabaseCompare\DatabaseCompare.Domain\Triggers.cs:line 46
+   at DatabaseCompare.Domain.Database.LoadObjects() in E:\ubs21\DatabaseCompare\DatabaseCompare.Domain\Database.cs:line 184}
+
+
+Bug za null na bazi D516
+   this.id = 1143270357
+
+   select * from syscomments where id = 1143270357

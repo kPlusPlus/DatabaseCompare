@@ -1,0 +1,8 @@
+bin\Debug\DifferenceEngine.dll
+bin\Debug\DifferenceEngine.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DifferenceEngine.dll
+obj\Debug\DifferenceEngine.pdb
+bin\Release\DifferenceEngine.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DifferenceEngine.dll

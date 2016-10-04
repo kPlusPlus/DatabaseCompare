@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<StoreProcedure>
+	<!--
+	<Rule process="replace" strFind="create {1,10}+procedure.*as" strReplacment="">brisanje CREATE PROCEDURE</Rule>
+	   -->
+	<Rule process="replace" strFind="create\\s+procedure\\s+(.+\\sas)\\s" strReplacment="">brisanje CREATE PROCEDURE</Rule>
+	<Rule process="replace" strFind="(?ism)(create {0,10}procedure)(.*as)?" strReplacment="" />	
+	<Rule process="replace" strFind="^.*\\GO\\b.*$" strReplacment="" />
+	<Rule process="replace" strFind="^((/\\*).*?(\\*/))" strReplacment="" />
+	<Rule process="replace" strFind="--.*" strReplacment="" />	
+	<!--
+	******************  specijalni znakovi  ******************
+-->
+	<Rule process="replace" strFind="(?ism)\\p{Cc}" strReplacment="" />
+	<Rule process="replace" strFind="(?ism)^[ \t]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ism)^[ \r]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ism)^[ \n]*$" strReplacment="" />
+	
+</StoreProcedure>

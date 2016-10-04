@@ -1,0 +1,1 @@
+ nvarchar(10)) + '%)'from dbo.listvrstplac with(nolock)    where listvrstplac.sifra = @sipaymentreturn @nvstringendif @sievent = 21 beginselect @nvstring = rtrim (dbo.ruta.tekst) from dbo.listnad with(nolock)inner join dbo.ruta with(nolock) on dbo.listnad.vezaid = dbo.ruta.idwhere dbo.listnad.skupdogadjaj = 21and dbo.listnad.id = @inlistnadidreturn @nvstringendreturn @nvstringend

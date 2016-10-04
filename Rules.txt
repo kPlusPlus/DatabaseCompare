@@ -1,0 +1,42 @@
+/i makes the regex match case insensitive. 
+/s enables "single-line mode". In this mode, the dot matches newlines. 
+/m enables "multi-line mode". In this mode, the caret and dollar match before and after newlines in the subject string.
+
+(?ism)create procedure.*as    ---------- ovo ovo radi radi
+						------- provjeri da li radi iz koda
+
+
+// komentar u jednoj liniji 
+bool FoundMatch = false;
+try {
+	FoundMatch = Regex.IsMatch(SubjectString, "--.*");
+} catch (ArgumentException ex) {
+	// Syntax error in the regular expression
+}
+
+
+
+
+(?ism)create procedure.*as
+
+bool FoundMatch = false;
+try {
+	FoundMatch = Regex.IsMatch(SubjectString, "(?ism)create procedure.*as",
+		RegexOptions.Multiline);
+} catch (ArgumentException ex) {
+	// Syntax error in the regular expression
+}
+
+
+
+
+
+(?isp)/\*.*?\*/
+(?isp)/\\*.*?\\*/
+(?isp)(\x2F\x2A).*?(\x2A\x2F)
+(?isp)(\\x2F\\x2A).*?(\\x2A\\x2F)
+(\x2F\x2A).*?(\x2A\x2F)
+
+
+
+// trebam još napraviti provjeru otvorenosti zagrada

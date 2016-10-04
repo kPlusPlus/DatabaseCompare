@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<StoreProcedure>
+	<!--	
+	<Rule process="replace" strFind="create {1,10}+procedure.*as" strReplacment="">brisanje CREATE PROCEDURE</Rule>
+	   -->
+
+	
+	<Rule process="replace" strFind="(?ims)create\\s+procedure\\s+(.+\\sas)\\s" strReplacment="">brisanje CREATE PROCEDURE</Rule>
+
+	<Rule process="replace" strFind="(?ims)(create {0,10}procedure)(.*as)?" strReplacment="" />
+	special remove testiranje pravila
+	<Rule process="replace" strFind="^.*\\GO\\b.*$" strReplacment="" />	
+
+	<Rule process="replace" strFind="(?ism)/\\*.*?\\*/" strReplacment="" />
+	<Rule process="replace" strFind="(?is-m:)--.*" strReplacment="" />
+	<Rule process="replace" strFind="([\\x2F\\x5C]\\*\\*\\*\\*\\*\\*).*(\\*\\*\\*\\*\\*\\*[\\x2F\\x5C])" strReplacment="">Dugi komentari</Rule>
+
+	<!--
+	******************  specijalni znakovi  ******************
+-->
+
+	<Rule process="replace" strFind="(?ims)\\(.{1,300}\\)|\\[.{1,100}\\]" strReplacment="" />	
+
+	<Rule process="replace" strFind="(?ims)\\(|\\)|\\[|\\]" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)\\p{Cc}" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)^[ \t]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)^[ \r]*$" strReplacment="" />
+	<Rule process="replace" strFind="(?ims)^[ \n]*$" strReplacment="" />
+
+
+</StoreProcedure>
